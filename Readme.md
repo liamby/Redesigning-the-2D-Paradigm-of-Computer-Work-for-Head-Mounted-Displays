@@ -1,6 +1,6 @@
  # Abstract
 
-<img src="Dissertation.png" ></img>
+![DissertationImg](https://github.com/liamby/Redesigning-the-2D-Paradigm-of-Computer-Work-for-Head-Mounted-Displays/assets/60388361/346ec4ba-90ac-46e9-a6b9-261b2878316c)
 
  > Figure. A mockup of a computer work application with windows, a volume and a virtual environment. 
 
