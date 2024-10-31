@@ -1,14 +1,30 @@
- # Abstract
+# TL; DR
+This repository contains research I conducted on the topic of redesigning computer work applications for head mounted displays (HMDs). This research was conducted as part of my Master's degree in Computer Science, specializing in Augmented and Virtual Reality, from Trinity College Dublin. The full academic paper is available [here](https://github.com/liamby/Redesigning-the-2D-Paradigm-of-Computer-Work-for-Head-Mounted-Displays/blob/main/Redesigning%20the%202D%20Paradigm%20of%20Computer%20Work%20for%20Head%20Mounted%20Displays.pdf). This research comprises **two primary segments**, the **research phase** and the **implementation phase**. 
+
+### Research Phase - Researching The Use of HMDs For Computer Work and Establishing Redesign Guidelines
+This part begins by clarifying VR terminology to dispel common misconceptions and progresses to provide a technical overview of current VR headsets, laying a foundation for subsequent design considerations. The research narrows its focus on the application of VR for computer-related tasks, analysing existing studies and emphasising design suggestions that limit content placement areas. Recognizing that limitless spatial content can hinder user-friendly design, especially for extended use, the study emphasises the need for specific content zones, driven by technical and ergonomic considerations. Within these defined zones, the research explores content types best suited for adaptation from 2D settings and identifies components that can be optimised for the spatial features of HMDs.
+
+A tri-component framework is introduced for the redesign process, encompassing 1) windows to incorporate and adapt existing 2D content, benefitting from depth-based information hierarchy, 2) volumetric visualisations or 3D objects to augment the user experience, and 3) virtual environments that guide user interactions in line with the designer's intent. The research phase culminates with 20 pivotal guidelines for transitioning computer work to HMDs, aiding designers in proficiently utilising the three components to reimagine their work applications for an immersive environment.
+
+### Implementation Phase - Designing and Implementing a Work Application for HMDs
+The second part of the report demonstrates the redesigned of a 2D computer work application into useful 3D experiences by focussing on breaking the existing application into smaller components and rethinking their spatial organisation in a 3D environment based on the conducted research. The aim was to implement and test the suggested approach to redesigning components discovered during the research phase such as the 3-part component framework and 20 user centric design guidelines. The application served as a testing ground to assess the practicality and efficacy of the guidelines, guaranteeing that they not only appear promising in theory but truly enhance an intuitive, immersive, and comfortable VR experience. 
+
+The redesigned application focussed on the common task of conducting research and taking notes and approached the problem from a novel visualisation standpoint. The application was built in Unity and has a client server model allowing the computationally intensive tasks to be offloaded from the headset to a more powerful computer. The application features selective passthrough with hand and keyboard tracking for intuitive user input for the panoramic windows, volumetric interface and immersive environment. There is a video demonstration available for the developed application here.
+
+<br>
+&nbsp;
 
 ![DissertationImg](https://github.com/liamby/Redesigning-the-2D-Paradigm-of-Computer-Work-for-Head-Mounted-Displays/assets/60388361/346ec4ba-90ac-46e9-a6b9-261b2878316c)
 
- > Figure. A mockup of a computer work application with windows, a volume and a virtual environment. 
+ > Figure. A mockup of a computer work application with windows, a volume and a virtual environment.
+
+ # Abstract
 
 The rise of HMDs brings forth possibilities for reimagining computer work in more immersive and productive ways indicating a shift in how humans interact with computers. HMDs and spatial interfaces are progressing towards becoming an alternative to two dimensional computer interactions. Designing mixed reality (MR) interfaces, which are more complex compared to desktop interfaces, requires standards for creating applications especially when leveraging the spatial capabilities of HMDs. Before HMDs can be widely adopted for tasks the tools currently used in a two-dimensional context will need to be redesigned to take advantage of the third dimension depth. This paper offers design guidelines for developing computer work applications for HMDs. These guidelines along with a methodology for redesigning 2D computer work for virtual environments are demonstrated through a sample application that explores how MR can enhance the research process. Findings from the design and implementation of this project, such as areas to focus the redesign around, are then shared to benefit future projects in the rapidly evolving field of interface design for HMDs.
 
 # Introduction
 
- New possibilities for human-computer interaction have been created by the introduction of HMDs,
+New possibilities for human-computer interaction have been created by the introduction of HMDs,
 including augmented and virtual reality devices. While current usage of MR has been primarily
 content consumption, there is untapped potential for more productive and creative use. There is now a
 growing need to explore and expand the possibilities offered by HMDs spurred by technology
@@ -77,4 +93,4 @@ discussed. In the second half, these research findings are applied and in evalua
 application, foundational knowledge for future endeavours aimed at creating VR tools tailored for
 computer work is gained.
 
-### See video demonstration at https://vimeo.com/855869614?share=copy
+### See video demonstration at https://www.youtube.com/watch?v=Bb-M3jQZ8BE
